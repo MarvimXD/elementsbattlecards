@@ -1,0 +1,37 @@
+*{padding: 0;margin: 0;}
+
+.container{width: 100%;height: 100vh;overflow: hidden;}
+
+.computador{width: 100%;height: 25vh;border: 1px solid black;
+display: flex;flex-direction: row;align-items: center;justify-content: center;}
+
+.deck-computador{width: 620px;height: 180px;border: 1px solid black;
+display: flex;flex-direction: row;align-items: center;justify-content: center;}
+
+.cartas-computador{width: 100px;height: 150px;border: 1px solid black;
+float: left;margin-left: 10px;margin-top: 10px;background-image: url("../imgs/01trazeira.png");
+background-size: cover;}
+
+.jogador{width: 100%;height: 25vh;border: 1px solid black;margin-top: 49vh;
+display: flex;flex-direction: row;align-items: center;justify-content: center;}
+
+.deck-jogador{width: 620px;height: 180px;border: 1px solid black;
+display: flex;flex-direction: row;align-items: center;justify-content: center;
+}
+
+.cartas-jogador{width: 100px;height: 150px;border: 1px solid black;
+float: left;margin-left: 10px;margin-top: 10px;background-size: cover;}
+
+.cartas-jogador:hover {cursor: pointer;opacity: 0.6;}
+
+.jogadas-box{width: 100%;height: 50vh;border: 1px solid black;position: fixed;display: flex;flex-direction: row;
+justify-content: center;align-items: center;}
+
+.jogadas{width: 600px;height: 100%;border: 1px solid black;}
+
+.jogando-cartas{float: left;width: 200px;height: 300px;border: 1px solid black;
+margin-left: 68px;margin-top: 10px;background-size: cover;}
+
+
+#btnGo {position: fixed;width: 45px;height: 45px;border-radius: 50%;margin-top: 200px;}
+#btnGo:hover {cursor: pointer;}
